@@ -1,5 +1,5 @@
-﻿$targetFolder = "C:\DCM"  # Hedef klasor
-$freeSpaceLimitGB = 55  # 50 GB limit
+﻿$targetFolder = "C:\"  # Disk dolduğunda silinmesi istenilen hedef klasor 
+$freeSpaceLimitGB = 50  # 50GB Limit
 $targetDate = (Get-Date).AddDays(-2)  # 2 gun oncesi tarih
 
 # C diskindeki bos alani kontrol et
