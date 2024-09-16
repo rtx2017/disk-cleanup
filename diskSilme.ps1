@@ -1,4 +1,4 @@
-﻿$targetFolder = "C:\"  # Disk dolduğunda silinmesi istenilen hedef klasor 
+﻿$targetFolder = "C:\SILINECEK"  # Disk dolduğunda silinmesi istenilen hedef klasor 
 $freeSpaceLimitGB = 50  # 50GB Limit
 $targetDate = (Get-Date).AddDays(-2)  # 2 gun oncesi tarih
 
